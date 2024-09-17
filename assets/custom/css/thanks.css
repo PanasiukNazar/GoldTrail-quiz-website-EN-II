@@ -23,7 +23,7 @@ body {
 }
 h1 {
     font-family: monospace;
-    font-size: 4em;
+    font-size: 4em !important;
     letter-spacing: 3px;
     color: #e667af;
     margin: 0;

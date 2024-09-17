@@ -36,17 +36,15 @@ const $container = document.getElementById('container');
 const startStep = {
     render: () => {
         $container.innerHTML = `
-        <div class="container quiz-wrapper">
-            <div class="row quiz-content quiz-preview">
-                <div class="col-lg-6 col-md-6 col-lg-6">
-                    <img class="quiz-img" src="assets/custom/images/quiz.jpg">
-                </div>
-                <div class="col-lg-6 col-md-6 col-lg-6">
-                    <h2 class="title">Test Your Knowledge on Gold Investing and Trading</h2>
-                    <h3 class="subtitle">How Well Do You Understand the Stock Market?</h3>
-                    <p class="text">Are you ready to explore the world of gold investing, trading strategies, and stock market insights?</p>
-                    <button class="btn btn-primary w-100 py-3 first-button" data-action="startQuiz">Get started</button>
-                </div>
+        <div class="quiz-preview">
+            <div >
+                <img class="quiz-img" src="assets/custom/images/quiz.jpg">
+            </div>
+            <div class="preview-content">
+                <h2 class="title">Test Your Knowledge on Gold Investing and Trading</h2>
+                <h3 class="subtitle">How Well Do You Understand the Stock Market?</h3>
+                <p class="text">Are you ready to explore the world of gold investing, trading strategies, and stock market insights?</p>
+                <button class="btn btn-primary w-100 py-3 first-button" data-action="startQuiz">Get started</button>
             </div>
         </div>
       `;
@@ -66,7 +64,6 @@ const questionsStep = {
 
         $container.innerHTML = `
         <div class="container quiz-wrapper">
-
             <div class="row quiz-content text-center">
                 <div class="question-wrapper">
                     <div class="row justify-content-center mt-4" style="width: 100%;">
