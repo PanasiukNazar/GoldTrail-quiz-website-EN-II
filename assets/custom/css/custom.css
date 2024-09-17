@@ -3749,7 +3749,7 @@ header h2 {
     column-gap: 20px;
 }
 
-#quiz-page h3 {
+#quiz-page .h3 {
     padding: 250px 20px;
     text-align: center;
     text-transform: uppercase;
