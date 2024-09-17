@@ -3777,13 +3777,16 @@ header h2 {
 }
 
 .form-content .title {
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
+    font-weight: bold;
+    color: #e667af;
 }
 
 .form-content h3 {
-    font-size: 25px;
-    color: #e667af;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
 }
 
 .form-content label {
